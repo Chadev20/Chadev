@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chadev</title>
+</head>
+<body  ng-controller = "index" ng-init="Init()">
+
+    <div ng-view></div>
+    
+    <script src="shared/angular.js"></script>
+    <script src="shared/angular-route.js"></script>
+    <script src="../js/socket.io.js"></script>
+    <script src="../js/DbService.js"></script>
+
+    <script src="index.js"></script>
+    <script src="components/login/login.js"></script>
+
+    <script src="app.js"></script>
+    <script src="shared/controller.js"></script>
+</body>
+</html>
